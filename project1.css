@@ -1,0 +1,58 @@
+body{
+    background-image: url("8863757.jpg"); 
+    background-size: cover;
+    color: white;
+}
+form{
+    display: inline-block;
+    display: flex;
+    flex-direction: row-reverse;
+    background-color:#eeeeee;
+    border-radius: 10px;
+}
+input{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    background-color:#eeeeee;
+    color: black;
+    margin: 10px;
+    padding: 10px;
+    width: 25%;
+    transition-duration:600ms ;
+    transition-delay: 1s 0.5s 1s;
+}
+form input:hover{
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgb(41, 159, 135);
+    color:white;
+}
+
+/*
+img{
+    position: absolute;
+    top:20%;
+    height: 300px;
+    width:100%;
+}
+h1{
+    font-family:'Courier New', Courier, monospace ;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+.C1{
+    width: 30%;
+    position: absolute;
+    top: 27%;
+    left: 5%;
+    width: 500px;
+}
+.C2{
+position: absolute;
+top:10%;
+left:5%;
+height: 40px;
+
+}
